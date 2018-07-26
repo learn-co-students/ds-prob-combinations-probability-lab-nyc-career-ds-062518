@@ -90,14 +90,14 @@ exactly_2 = combination(10,2)*0.25**2*0.75**8
 exactly_1 = combination(10,1)*0.25**1*0.75**9
 exactly_0 = combination(10,0)*0.75**10
 
-four_or_more = 1- (exactly_0 +exactly_1+exactly_1+exactly_3)
-four_or_more # correct answer: 0.3179807662963867
+four_or_more = 1- (exactly_0 +exactly_1+exactly_2+exactly_3)
+four_or_more # correct answer: 0.22412490844726562
 ```
 
 
 
 
-    0.3179807662963867
+    0.22412490844726562
 
 
 
