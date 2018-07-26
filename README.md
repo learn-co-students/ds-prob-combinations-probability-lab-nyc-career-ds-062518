@@ -71,7 +71,7 @@ None
 None
 
 four_or_more = None
-four_or_more # correct answer: 0.3179807662963867
+four_or_more # correct answer: 0.22412490844726562
 ```
 
 Now, let's make it a little harder. Of course, a spare is also a fairly common outcome when playing bowling. Imagine that the probability of throwing a strike is 0.15, or a spare 0.25 and throwing anything else is 0.60.
